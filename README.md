@@ -28,27 +28,80 @@
 🚗 Carros e Veículos
 Veículo	Preço Estimado (R$)	Requisitos	Emoji
 Bicicleta Simples	R$ 1.200	Nenhum	🚲
+
 Moto Honda CG 160	R$ 16.000	Nível 5+	🛵
+
 Carro Popular (Fiat Mobi)	R$ 53.000	Nível 10+	🚗
+
 Sedan (Toyota Corolla)	R$ 150.000	Nível 30+	🚘
+
 SUV Médio (Jeep Compass)	R$ 200.000	Nível 50+	🚙
+
 Carro de Luxo (BMW Série 3)	R$ 340.000	Nível 70+	🏎️
 
 🏠 Casas e Imóveis
+
 Imóvel	Preço Estimado (R$)	Requisitos	Emoji
+
 Kitnet Simples (Centro)	R$ 90.000	Nível 5+	🛏️
+
 Casa Simples de Bairro	R$ 180.000	Nível 15+	🏠
+
 Apartamento Médio (2 quartos)	R$ 300.000	Nível 30+	🏢
+
 Mansão em Condomínio	R$ 900.000	Nível 60+	🏛️
+
 Cobertura de Luxo (SP/RJ)	R$ 2.000.000	Nível 90+	🌇
 
 ## Sistema de imposto
 
 📊 Tabela de Impostos Progressivos (Modelo Realista Inspirado no IRPF Brasil)
 Faixa de Salário Mensal (R$)	Alíquota (%)	Exemplo (R$) de Imposto
+
 Até R$ 2.640	Isento	R$ 0
+
 R$ 2.641 a R$ 4.000	7,5%	R$ 300 (em R$ 4.000)
+
 R$ 4.001 a R$ 6.750	15%	R$ 900 (em R$ 6.000)
+
 R$ 6.751 a R$ 10.000	22,5%	R$ 2.250 (em R$ 10.000)
+
 Acima de R$ 10.000	27,5%	R$ 2.750 (em R$ 10.000)
 
+## player structure
+
+```json
+{
+    "name": "",
+    "level": 1,
+    "xp": 0,
+    "requiredXp": 0, 
+    "balance": 1000, 
+    "bank": 0,
+    "job": null,
+    "itens": [],
+    "heritage": 0,
+    "timestamps": [
+        "nextWork": 18392392,
+        "nextBuy": 929391,
+        "nextTax": 399293929, 
+        "nextSlot": 5030030,
+        "nextDeposit": 20390230
+    ]
+}
+```
+
+## comandos do jogador 
+
+!ddt commands
+
+- me 
+- jogar
+- itens
+- trabalhar  
+- sacar [cash]   
+- depositar [cash]   
+- cargo [id]
+- slot [cash]
+- roubar [@user]
+- status

@@ -1,0 +1,14 @@
+{
+    "name": "nexum-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Roberto0-0/nexum-api.git",
+    "author": "Robert",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
