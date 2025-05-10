@@ -4,6 +4,7 @@ class Group {
         this.name = name
         this.players = []
         this.jobs = []
+        this.status = true
         this.createdAt = Date.now()
     }
 }
