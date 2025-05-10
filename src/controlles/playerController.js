@@ -1,4 +1,3 @@
-const { GroupGetBySession } = require("../usecases/group/getBySession")
 const { PlayerCreate } = require("../usecases/player/create")
 const { PlayerXpUpgrade } = require("../usecases/player/xpUpgrade")
 const { PlayerCashTaxa } = require("../usecases/player/cashTaxa")
@@ -13,12 +12,6 @@ class PlayerController {
 
     create(playerProps) {
         return new PlayerCreate().execute(playerProps)
-    }
-
-    async getBySerialized(session, serialized) {
-        const groupGetBySessionService = new GroupGetBySession(this.storage)
-        const service = new PlayerGetBySerialized(groupGetBySessionService)
-        return await service.execute(session, serialized)
     }
 
     xpUpgrade(player, xp) {
