@@ -26,32 +26,28 @@
 ## Loja
 
 🚗 Carros e Veículos
-Veículo	Preço Estimado (R$)	Requisitos	Emoji
-Bicicleta Simples	R$ 1.200	Nenhum	🚲
 
-Moto Honda CG 160	R$ 16.000	Nível 5+	🛵
+Bicicleta R$ 1.200 🚲
 
-Carro Popular (Fiat Mobi)	R$ 53.000	Nível 10+	🚗
+Honda CG 160 R$ 16.000	Nível 5+	🛵
 
-Sedan (Toyota Corolla)	R$ 150.000	Nível 30+	🚘
+Hyundai Tucson	R$ 53.000	Nível 10+	🚗
 
-SUV Médio (Jeep Compass)	R$ 200.000	Nível 50+	🚙
+BMW S1000  Nível 15+ R$ 120.000 🏍️
 
-Carro de Luxo (BMW Série 3)	R$ 340.000	Nível 70+	🏎️
+Hilux R$ 270.000	Nível 30+ 🛻	
 
 🏠 Casas e Imóveis
 
-Imóvel	Preço Estimado (R$)	Requisitos	Emoji
+Kitnet 	R$ 90.000	Nível 5+	🛏️
 
-Kitnet Simples (Centro)	R$ 90.000	Nível 5+	🛏️
+Casa R$ 180.000	Nível 15+	🏠
 
-Casa Simples de Bairro	R$ 180.000	Nível 15+	🏠
+Apartamento	R$ 300.000	Nível 30+	🏢
 
-Apartamento Médio (2 quartos)	R$ 300.000	Nível 30+	🏢
+Fabrica R$ 500.000 Nível 40+ 🏭 
 
-Mansão em Condomínio	R$ 900.000	Nível 60+	🏛️
-
-Cobertura de Luxo (SP/RJ)	R$ 2.000.000	Nível 90+	🌇
+Mansão R$ 900.000	Nível 60+	🏛️
 
 ## Sistema de imposto
 
