@@ -7,7 +7,7 @@ class Player {
         this.requiredXp = this.requiredXpCalculate(this.level)
         this.balance = 0
         this.bank = 0
-        this.job = { name: "𝐃𝐞𝐬𝐞𝐦𝐩𝐫𝐞𝐠𝐚𝐝𝐨(𝐚)", salary: 600 }
+        this.job = { icon: "💩", name: "𝐃𝐞𝐬𝐞𝐦𝐩𝐫𝐞𝐠𝐚𝐝𝐨(𝐚)", salary: 600 }
         this.itens = []
         this.heritage = 0
         this.timestamps = {
