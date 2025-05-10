@@ -2,6 +2,7 @@ const { GroupGetBySession } = require("../usecases/group/getBySession")
 const { PlayerCreate } = require("../usecases/player/create")
 const { PlayerXpUpgrade } = require("../usecases/player/xpUpgrade")
 const { PlayerCashTaxa } = require("../usecases/player/cashTaxa")
+const { PlayerTaxCalculate } = require("../usecases/player/taxCalculate")
 
 const path = require("node:path")
 
@@ -26,6 +27,10 @@ class PlayerController {
 
     cashTaxa(cash) {
         return new PlayerCashTaxa().execute(cash)
+    }
+
+    taxCalculate(playerInfo) {
+        return new PlayerTaxCalculate().execute(playerInfo)
     }
 }
 
