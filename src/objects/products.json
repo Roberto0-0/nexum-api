@@ -28,7 +28,7 @@
         "icon": "🏍️",
         "name": "BMW S1000",
         "type": "vehicle",
-        "price": 12000,
+        "price": 120000,
         "level": 15
     },
     {
@@ -36,7 +36,7 @@
         "icon": "🛻",
         "name": "Hilux",
         "type": "vehicle",
-        "price": 27000,
+        "price": 270000,
         "level": 30
     },
     {
