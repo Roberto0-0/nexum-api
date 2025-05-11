@@ -7,15 +7,16 @@ class Player {
         this.requiredXp = this.requiredXpCalculate(this.level)
         this.balance = 0
         this.bank = 0
-        this.job = { icon: "💩", name: "𝐃𝐞𝐬𝐞𝐦𝐩𝐫𝐞𝐠𝐚𝐝𝐨(𝐚)", salary: 600 }
-        this.itens = []
+        this.job = { id: "00", icon: "💩", name: "𝐃𝐞𝐬𝐞𝐦𝐩𝐫𝐞𝐠𝐚𝐝𝐨(𝐚)", salary: 600 }
+        this.items = []
         this.heritage = 0
         this.timestamps = {
             nextWork: Date.now(),
-            nextBuy: Date.now(),
             nextTax: this.setTaxTime(),
             nextSlot: Date.now(),
-            nextDeposit: Date.now()
+            nextDeposit: Date.now(),
+            nextRobbery: Date.now(),
+            nextArrested: Date.now()
         }
         this.isAdmin = false
         this.createdAt = Date.now()
