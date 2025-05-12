@@ -28,7 +28,7 @@
         "icon": "🏍️",
         "name": "BMW S1000",
         "type": "vehicle",
-        "price": 120000,
+        "price": 125000,
         "level": 15
     },
     {
@@ -36,59 +36,59 @@
         "icon": "🛻",
         "name": "Hilux",
         "type": "vehicle",
-        "price": 270000,
+        "price": 272000,
         "level": 30
     },
     {
         "id": "06",
-        "icon": "🛏️",
-        "name": "Kitnet",
-        "type": "houses",
-        "price": 90000,
-        "level": 5
-    },
-    {
-        "id": "07",
-        "icon": "🏠",
-        "name": "Casa",
-        "type": "houses",
-        "price": 180000,
-        "level": 15
-    },
-    {
-        "id": "08",
-        "icon": "🛏️",
-        "name": "Kitnet",
-        "type": "houses",
-        "price": 90000,
-        "level": 5
-    },
-    {
-        "id": "08",
-        "icon": "🏢",
-        "name": "Apartamento",
-        "type": "houses",
-        "price": 300000,
+        "icon": "🚁",
+        "name": "Bell 206 JetRanger",
+        "type": "vehicle",
+        "price": 7140000,
         "level": 30
     },
     {
-        "id": "09",
-        "icon": "🏭",
-        "name": "Fabrica",
+        "id": "07",
+        "icon": "🛏️",
+        "name": "Kitnet",
         "type": "houses",
-        "price": 500000,
-        "level": 40
+        "price": 95000,
+        "level": 5
+    },
+    {
+        "id": "08",
+        "icon": "🏠",
+        "name": "Casa",
+        "type": "houses",
+        "price": 185000,
+        "level": 15
+    },
+    {
+        "id": "09",
+        "icon": "🏢",
+        "name": "Apartamento",
+        "type": "houses",
+        "price": 370000,
+        "level": 30
     },
     {
         "id": "10",
-        "icon": "🏰",
-        "name": "Mansão",
+        "icon": "🏭",
+        "name": "Fabrica",
         "type": "houses",
-        "price": 900000,
-        "level": 60
+        "price": 850000,
+        "level": 40
     },
     {
         "id": "11",
+        "icon": "🏰",
+        "name": "Mansão",
+        "type": "houses",
+        "price": 1200000,
+        "level": 60
+    },
+    {
+        "id": "12",
         "icon": "🔫",
         "name": "Desert Eagle",
         "type": "others",
