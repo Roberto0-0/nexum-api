@@ -1,7 +1,6 @@
 class PlayerTaxCalculate {
-    execute(playerInfo) {
+    execute(salary) {
         let taxPercentage = 0
-        let cost = 0
 
         const tax = [
             { minimumSalary: 600, maximumSalary: 2670, percentage: 0 },
@@ -12,16 +11,12 @@ class PlayerTaxCalculate {
         ]
 
         for (let i = 0; i < tax.length; i++) {
-            if (playerInfo.job.salary >= tax[i].minimumSalary && playerInfo.job.salary <= tax[i].maximumSalary) {
+            if (salary >= tax[i].minimumSalary && salary <= tax[i].maximumSalary) {
                 taxPercentage = tax[i].percentage
-                cost = Math.floor((taxPercentage * playerInfo.balance) / 100)
             }
         }
 
-        return {
-            cost,
-            tax: taxPercentage
-        }
+        return taxPercentage
     }
 }
 
