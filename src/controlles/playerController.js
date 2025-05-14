@@ -2,6 +2,7 @@ const { PlayerCreate } = require("../usecases/player/create")
 const { PlayerXpUpgrade } = require("../usecases/player/xpUpgrade")
 const { PlayerCashTaxa } = require("../usecases/player/cashTaxa")
 const { PlayerTaxCalculate } = require("../usecases/player/taxCalculate")
+const { PlayerWork } = require("../usecases/player/work")
 
 const path = require("node:path")
 
@@ -25,6 +26,10 @@ class PlayerController {
     taxCalculate(playerInfo) {
         return new PlayerTaxCalculate().execute(playerInfo)
     }
-}
+
+    work(jobId) {
+        return new PlayerWork().execute(jobId)
+    }
+} 
 
 module.exports = { PlayerController }
