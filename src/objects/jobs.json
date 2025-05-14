@@ -3,7 +3,8 @@
         "id": "01",
         "icon": "📚",
         "name": "𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐨𝐫(𝐚)",
-        "salary": 4500,
+        "salary": 4580,
+        "variation": 2580,
         "level": 5,
         "price": 1000,
         "amount": 10
@@ -12,7 +13,8 @@
         "id": "02",
         "icon": "🚔",
         "name": "𝐏𝐨𝐥𝐢𝐜𝐢𝐚𝐥",
-        "salary": 6000,
+        "salary": 6500,
+        "variation": 5000,
         "level": 10,
         "price": 2000,
         "amount": 8
@@ -21,7 +23,8 @@
         "id": "03",
         "icon": "💉",
         "name": "𝐄𝐧𝐟𝐞𝐫𝐦𝐞𝐢𝐫𝐨(𝐚)",
-        "salary": 7000,
+        "salary": 7200,
+        "variation": 4800,
         "level": 15,
         "price": 3500,
         "amount": 8
@@ -31,6 +34,7 @@
         "icon": "🔥",
         "name": "𝐁𝐨𝐦𝐛𝐞𝐢𝐫𝐨(𝐚)",
         "salary": 7500,
+        "variation": 5000,
         "level": 20,
         "price": 4000,
         "amount": 7
@@ -39,7 +43,8 @@
         "id": "05",
         "icon": "📋",
         "name": "𝐄𝐧𝐠𝐞𝐧𝐡𝐞𝐢𝐫𝐨(𝐚)",
-        "salary": 15000,
+        "salary": 14000,
+        "variation": 11500,
         "level": 30,
         "price": 6000,
         "amount": 5
@@ -48,7 +53,8 @@
         "id": "06",
         "icon": "🔬",
         "name": "𝐂𝐢𝐞𝐧𝐭𝐢𝐬𝐭𝐚",
-        "salary": 18000,
+        "salary": 18500,
+        "variation": 16500,
         "level": 40,
         "price": 8000,
         "amount": 4
@@ -57,7 +63,8 @@
         "id": "07",
         "icon": "🩺",
         "name": "𝐌𝐞́𝐝𝐢𝐜𝐨(𝐚)",
-        "salary": 20000,
+        "salary": 20500,
+        "variation": 18500,
         "level": 50,
         "price": 10000,
         "amount": 3
@@ -67,6 +74,7 @@
         "icon": "⚖️",
         "name": "𝐉𝐮𝐢𝐳(𝐚)",
         "salary": 35000,
+        "variation": 31000,
         "level": 70,
         "price": 20000,
         "amount": 2
@@ -76,6 +84,7 @@
         "icon": "💼",
         "name": "𝐆𝐨𝐯𝐞𝐫𝐧𝐚𝐝𝐨𝐫(𝐚)",
         "salary": 41000,
+        "variation": 38000,
         "level": 80,
         "price": 30000,
         "amount": 2
@@ -85,6 +94,7 @@
         "icon": "🏛️",
         "name": "𝐏𝐫𝐞𝐬𝐢𝐝𝐞𝐧𝐭𝐞(𝐚)",
         "salary": 50000,
+        "variation": 48000,
         "level": 90,
         "price": 40000,
         "amount": 1
