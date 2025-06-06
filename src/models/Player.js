@@ -20,6 +20,7 @@ class Player {
             nextWork: Date.now(),
             nextTax: this.setTaxTime(),
             nextSlot: Date.now(),
+            nextBet: Date.now(),
             nextDeposit: Date.now(),
             nextRobbery: Date.now(),
             nextArrested: Date.now(),
