@@ -7,6 +7,7 @@ class Player {
         this.requiredXp = this.requiredXpCalculate(this.level)
         this.balance = 0
         this.bank = 0
+        this.bankLimit = 0
         this.job = {
             id: "00",
             icon: "💩",
